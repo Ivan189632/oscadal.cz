@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje Jednoduché Webové Stránky</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50a3a2;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: 1px solid #eaeaea;
+        }
+        header h1 {
+            padding: 5px 0;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            color: white;
+            padding: 5px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 20px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        article {
+            padding: 20px;
+            clear: both;
+        }
+        footer {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Moje Jednoduché Webové Stránky</h1>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="#">Domů</a>
+            <a href="#">O nás</a>
+            <a href="#">Kontakt</a>
+        </div>
+    </nav>
+
+    <article>
+        <div class="container">
+            <h2>Vítejte na našich stránkách!</h2>
+            <p>Toto jsou jednoduché webové stránky vytvořené pomocí HTML a CSS. Zde můžete vložit libovolný obsah, který chcete sdílet se světem. Může to být text, obrázky, videa, nebo cokoliv jiného, co vám na mysl přijde.</p>
+        </div>
+    </article>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Moje Jednoduché Webové Stránky</p>
+        </div>
+    </footer>
+</body>
+</html>
