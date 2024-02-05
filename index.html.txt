@@ -2,17 +2,14 @@
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
-    <title>Vaše Domovská Stránka</title>
+    <title>Název vaší stránky</title>
 </head>
 <body>
     <h1>Vítejte na mé webové stránce</h1>
-    <p>Toto je hlavní stránka, která odkazuje na různé části webu.</p>
-    <nav>
-        <ul>
-            <li><a href="menu.html">Menu</a></li>
-            <!-- Přidat další odkazy podle potřeby -->
-        </ul>
-    </nav>
+    <p>Toto je hlavní stránka.</p>
+    <!-- Odkaz na program "menu" -->
+    <a href="menu.html">Přejít na menu</a>
 </body>
 </html>
+
 
